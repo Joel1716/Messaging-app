@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kameron&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <header>
+          <p class="back-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </p>
+          <p class="user-name">Christina</p>
+          <img src="robot.png" alt="Robot image" />
+        </header>
+        <main>
+          <div class="messages js-message">
+            <div class="user-message">
+              <p>Ugh, can you believe what my boyfriend did?!</p>
+              <p class="user-timer">10:24AM</p>
+            </div>
+            <div class="computer-message">
+              <p>I am all ears, or well, all circuits</p>
+              <p class="computer-timer">10:25AM</p>
+            </div>
+            <div class="user-message">
+              <p>
+                He said he'd call me back in 10 minutes... it's been 3 hours!
+              </p>
+              <p class="user-timer">10:26AM</p>
+            </div>
+            <div class="computer-message">
+              <p>What?!</p>
+              <p class="computer-timer">10:25AM</p>
+            </div>
+          </div>
+          <div class="alert-message">
+            <p>You are currently speaking with angry Christina</p>
+          </div>
+          <div class="input-messages">
+            <input type="text" class="js-input" />
+            <button>
+              <ion-icon
+                class="send-arrow js-button"
+                name="paper-plane-outline"
+              ></ion-icon>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- IONICONS USAGE -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!--JAVASCRIPT FILE-->
+    <script src="main.js"></script>
+  </body>
+</html>
