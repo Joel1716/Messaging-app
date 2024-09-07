@@ -23,14 +23,14 @@ function clicked() {
   timeHtml.innerHTML = trueTime;
   timeHtml.classList.add("user-timer");
   timeHtml.style.width = "65px";
-  timeHtml.style.bottom = "-16px";
+  timeHtml.style.bottom = "-19px";
   // Kept the two sub-elements inside the main container
   newMessage.append(message, timeHtml);
    // Kept all the elements in the main element on the page
   mainMessages.appendChild(newMessage);
   // Made the input empty after sending the message
   inputTarget.value = "";
-  alertMessage.style.marginTop = "1.5rem";
+  alertMessage.style.marginTop = "2rem";
 }
 // Send the message when you click the 'Enter' key
 inputTarget.addEventListener("keydown", function (e) {
