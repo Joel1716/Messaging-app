@@ -18,7 +18,7 @@ function clicked() {
   // CREATED ANOTHER ELEMENT AND KEPT THE VALUE INSIDE
   const message = document.createElement("p");
   message.innerHTML = inputTarget.value;
-    // Created the element for the time and kept the time value created before inside it and positioned it well on the page
+  // Created the element for the time and kept the time value created before inside it and positioned it well on the page
   const timeHtml = document.createElement("p");
   timeHtml.innerHTML = trueTime;
   timeHtml.classList.add("user-timer");
